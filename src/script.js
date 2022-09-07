@@ -2,7 +2,7 @@ const horas = document.getElementById("hours");
 const minutos = document.getElementById("minutes");
 const segundos = document.getElementById("seconds");
 
-const relogio = setInterval(function time() {
+const relogio = setInterval(function watch() {
     let dateToday = new Date();
     let hr = dateToday.getHours();
     let min = dateToday.getMinutes();
